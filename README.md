@@ -50,8 +50,8 @@ pip install OptiRoulette
 
 ## Examples
 
-- CIFAR-100 demo notebook: `examples/quick_cifar100_optiroulette.ipynb`
-- Tiny-ImageNet demo notebook: `examples/quick_tiny_imagenet_optiroulette.ipynb`
+- [CIFAR-100 demo notebook](examples/quick_cifar100_optiroulette.ipynb)
+- [Tiny-ImageNet demo notebook](examples/quick_tiny_imagenet_optiroulette.ipynb)
 
 ## Quick Use
 
