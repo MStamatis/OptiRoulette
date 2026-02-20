@@ -156,6 +156,24 @@ optimizer = OptiRoulette(
 )
 ```
 
+Override warmup epochs:
+
+```python
+# Set warmup to 8 epochs (overrides default profile warmup)
+optimizer = OptiRoulette(
+    model.parameters(),
+    warmup_epochs=8,
+)
+```
+
+```python
+# Disable warmup explicitly
+optimizer = OptiRoulette(
+    model.parameters(),
+    roulette={"warmup_epochs": 0},
+)
+```
+
 ## Third-Party Dependencies
 
 This package depends on `pytorch-optimizer` for additional optimizer implementations.
